@@ -34,6 +34,9 @@ git config --global user.email "your.email@college.edu"
 
 ---
 
+## NOTE: Clone the repository only after the questions get posted. 
+
+
 ## 🚀 Getting Started: Fork, Copy URL, and Clone
 
 ### 1. **Fork this Repository**
