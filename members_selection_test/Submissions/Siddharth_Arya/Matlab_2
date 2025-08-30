@@ -1,0 +1,51 @@
+% Name: Siddharth Arya 
+% Roll Number: nil
+% Question: Space Mission Control
+% Time: 30 minutes
+
+% =======================================
+% TASK 1: Rover Data Collection
+% =======================================
+% Soil density readings (g/cm³)
+soil_density = [2.3, 1.8, 3.1, 2.7, 1.9, 3.4, 2.1, 2.9];
+
+% Location coordinates (meters from base)
+rover_locations = [10, 25, 40, 55, 70, 85, 100, 115];
+
+% =======================================
+% TASK 2: Basic Array Analysis
+% =======================================
+% a) Total number of measurement points
+num_points = length(soil_density);
+
+% b) Maximum density value
+max_density = max(soil_density);
+
+% c) Minimum density value
+min_density = min(soil_density);
+
+% d) Average soil density
+avg_density = mean(soil_density);
+
+% =======================================
+% TASK 3: Data Processing
+% =======================================
+% a) Find heavy soil zones (density > 2.5 g/cm³)
+heavy_soil = soil_density(soil_density > 2.5);
+
+% b) Count how many locations have density > 2.5
+num_heavy = length(heavy_soil);
+
+% c) Find the location (index) of the maximum density reading
+max_index = find(soil_density == max_density);
+
+% =======================================
+% DISPLAY RESULTS
+% =======================================
+fprintf("=== MARS MISSION CONTROL - ROVER DATA ANALYSIS ===\n");
+fprintf("Total Measurement Points: %d\n", num_points);
+fprintf("Maximum Soil Density: %.1f g/cm³ (at Location %d meters)\n", max_density, rover_locations(max_index));
+fprintf("Minimum Soil Density: %.1f g/cm³\n", min_density);
+fprintf("Average Soil Density: %.3f g/cm³\n", avg_density);
+fprintf("Heavy Soil Locations (>2.5 g/cm³): %d sites found\n", num_heavy);
+fprintf("Heavy Soil Values: [%s]\n", num2str(heavy_soil));
