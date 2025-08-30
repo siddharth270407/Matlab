@@ -8,9 +8,10 @@ Welcome to the MATrix (MATLAB and Open-Source) Club Member Selection Test! This 
 ## 🎯 Quick Overview
 
 - **What**: Programming test with 4 questions (2 Python + 2 MATLAB)
-- **Duration**: 2 hours total (30 minutes per question)
+- **Duration**: 2.5 hours total (see schedule below)
+- **Test Start Time**: 6:00 PM, 30th August 2025 (today)
 - **Difficulty**: Beginner-friendly
-- **Submission**: Via GitHub Pull Request (we'll teach you how!)
+- **Submission**: Via GitHub Pull Request to the **main branch** (we'll teach you how!)
 - **Help**: Step-by-step instructions provided below
 
 ---
@@ -64,13 +65,8 @@ git clone https://github.com/YOUR_USERNAME/member_selection_test.git
 cd member_selection_test
 ```
 
-### STEP 3: Create a New Branch for Your Solutions
-**Why create a branch?** It keeps your work organized and makes pull requests cleaner.
 
-```bash
-git checkout -b solutions-YOUR_NAME
-```
-Example: `git checkout -b solutions-john-doe`
+### STEP 3: Complete the Programming Questions
 
 ### STEP 4: Complete the Programming Questions
 
@@ -80,11 +76,11 @@ member_selection_test/
 ├── README.md                                    # This guide
 ├── Submissions/                                 # Your solutions go here
 ├── python questions/
-│   ├── Question_1_Prime_Number_Detective.py     # Read and solve
-│   └── Question_2_Palindrome_Portal.py          # Read and solve
+│   ├── Question_1_Python_1.py     # Read and solve
+│   └── Question_2_Python_2.py     # Read and solve
 └── MATLAB questions/
-    ├── Question_1_Data_Science_Laboratory.m     # Read and solve
-    └── Question_2_Space_Mission_Control.m       # Read and solve
+   ├── Question_1_MATLAB_1.m      # Read and solve
+   └── Question_2_MATLAB_2.m      # Read and solve
 ```
 
 #### 🎯 For Each Question:
@@ -94,15 +90,16 @@ member_selection_test/
 4. **Test your code to make sure it works**
 
 #### 📝 Solution File Naming:
-- Python Q1: `Submissions/Prime_Detective_[YourName].py`
-- Python Q2: `Submissions/Palindrome_Portal_[YourName].py`
-- MATLAB Q1: `Submissions/Data_Lab_[YourName].m`
-- MATLAB Q2: `Submissions/Space_Mission_[YourName].m`
+- Python Q1: `Submissions/Python_1_[YourName].py`
+- Python Q2: `Submissions/Python_2_[YourName].py`
+- MATLAB Q1: `Submissions/MATLAB_1_[YourName].m`
+- MATLAB Q2: `Submissions/MATLAB_2_[YourName].m`
 
 **Example**: If your name is John Doe:
-- `Submissions/Prime_Detective_John_Doe.py`
-- `Submissions/Palindrome_Portal_John_Doe.py`
-- etc.
+- `Submissions/Python_1_John_Doe.py`
+- `Submissions/Python_2_John_Doe.py`
+- `Submissions/MATLAB_1_John_Doe.m`
+- `Submissions/MATLAB_2_John_Doe.m`
 
 ### STEP 5: Add and Commit Your Solutions
 
@@ -128,11 +125,12 @@ git commit -m "Add solutions for MATrix club selection test - [Your Name]"
 git push origin solutions-YOUR_NAME
 ```
 
+
 ### STEP 7: Create a Pull Request
 1. **Go to your forked repository on GitHub** (in your web browser)
-2. **You should see a yellow bar** saying "Compare & pull request" - click it
-   - If you don't see it, click "New pull request"
-3. **Fill out the pull request form**:
+2. **Click "New pull request"**
+3. **Set the base repository to the club's repository and the base branch to `main`**
+4. **Fill out the pull request form**:
    - **Title**: `Member Selection Test Solutions - [Your Full Name]`
    - **Description**: 
    ```
@@ -143,16 +141,16 @@ git push origin solutions-YOUR_NAME
    - Branch/Year: [Your Branch and Year]
    
    **Solutions Submitted:**
-   - ✅ Python Question 1: Prime Number Detective
-   - ✅ Python Question 2: Palindrome Portal  
-   - ✅ MATLAB Question 1: Data Science Laboratory
-   - ✅ MATLAB Question 2: Space Mission Control
+   - ✅ Python Question 1
+   - ✅ Python Question 2
+   - ✅ MATLAB Question 1
+   - ✅ MATLAB Question 2
    
    **Additional Notes:**
    All solutions have been tested and are working correctly.
    Looking forward to joining the MATrix club! 🚀
    ```
-4. **Click "Create pull request"**
+5. **Click "Create pull request"**
 
 ### STEP 8: Wait for Review
 - Your pull request has been submitted! 🎉
@@ -220,19 +218,7 @@ git push origin solutions-YOUR_NAME
 
 ---
 
-## 📞 EMERGENCY HELP
 
-### During the Test:
-1. **Technical Issues**: Raise your hand immediately
-2. **GitHub Problems**: Ask a club executive for help
-3. **Programming Questions**: We can clarify requirements but not provide solutions
-
-### Contact Information:
-- **Test Administrator**: MATrix Club President
-- **Technical Support**: Club executives will be available during the test
-- **Emergency**: Contact provided during test session
-
----
 
 ## ⏰ Time Management Tips
 
@@ -278,24 +264,7 @@ git branch
 
 ---
 
-## 🎓 What We're Looking For
 
-### Technical Skills:
-- **Correct Logic**: Does your code solve the problem?
-- **Clean Code**: Is it readable and well-organized?
-- **Testing**: Does it work with the provided examples?
-
-### GitHub Skills:
-- **Following Instructions**: Did you use the correct submission process?
-- **File Organization**: Are files in the right places with correct names?
-- **Pull Request Quality**: Is your PR well-formatted and informative?
-
-### Problem-Solving:
-- **Understanding**: Do you grasp what each problem is asking?
-- **Approach**: Is your solution approach logical?
-- **Completion**: Did you attempt all parts of each question?
-
----
 
 ## 🌟 Success Tips for Beginners
 
@@ -358,13 +327,11 @@ git branch
 
 ---
 
-## 🤝 Join Our Community
+## 🌐 Join Our Community
 
-Whether you're selected for the club or not, you're now part of the MATrix community! 
-
-### Stay Connected:
-- **GitHub**: Follow our organization [@Programmers-Paradise](https://github.com/Programmers-Paradise)
-- **Discord**: [Join our server] (link provided during test)
+- [GitHub](https://github.com/Programmers-Paradise)
+- [YouTube](https://www.youtube.com/@ProgrammersParadiseCSVTU)
+- [LinkedIn](https://www.linkedin.com/company/programmers-paradise-csvtu/)
 - **Events**: Watch for workshops and coding sessions
 - **Open Source**: Contribute to our projects anytime!
 
