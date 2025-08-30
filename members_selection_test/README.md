@@ -213,15 +213,6 @@ git push origin solutions-YOUR_NAME
 
 
 
-## ⏰ Time Management Tips
-
-### Recommended Schedule (2 hours total):
-- **Minutes 0-5**: Set up GitHub and clone repository
-- **Minutes 5-35**: Python Question 1 (30 minutes)
-- **Minutes 35-65**: Python Question 2 (30 minutes)  
-- **Minutes 65-95**: MATLAB Question 1 (30 minutes)
-- **Minutes 95-115**: MATLAB Question 2 (20 minutes)
-- **Minutes 115-120**: Create pull request and submit (5 minutes)
 
 ### Pro Tips:
 - ✅ **Start with the language you're more comfortable with**
