@@ -17,7 +17,6 @@ Welcome to the MATrix (MATLAB and Open-Source) Club Member Selection Test! This 
 
 ---
 
-git config --global user.email "your.email@college.edu"
 
 ## 📋 BEFORE YOU START
 
@@ -37,7 +36,6 @@ Once you have the repository on your computer, continue below.
 
 ## 🚀 SUBMISSION PROCESS
 
-git clone https://github.com/YOUR_USERNAME/member_selection_test.git
 
 ### 1. Complete the Programming Questions
 
