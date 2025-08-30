@@ -1,0 +1,40 @@
+# Name: Siddharth Arya 
+# Roll Number: Nil
+# Question: Prime Number Detective
+# Time: 30 minutes
+
+# Function to check if a number is prime
+def is_prime(number: int) -> bool:
+    """
+    Returns True if 'number' is a prime number, False otherwise.
+    A prime number has exactly two divisors: 1 and itself.
+    """
+    if number < 2:
+        return False
+    if number == 2:  # 2 is the only even prime number
+        return True
+    if number % 2 == 0:  # eliminate even numbers greater than 2
+        return False
+
+    # check divisibility up to square root of number
+    limit = int(number ** 0.5) + 1
+    for i in range(3, limit, 2):  # only check odd divisors
+        if number % i == 0:
+            return False
+    return True
+
+
+# Main program
+if __name__ == "__main__":
+    try:
+        user_input = int(input("🔢 Enter a positive integer to check: "))
+        
+        if user_input <= 0:
+            print("⚠️ Please enter a positive integer greater than 0.")
+        elif is_prime(user_input):
+            print(f"{user_input} is a prime number! 🚨 EXTRA SECURITY NEEDED!")
+        else:
+            print(f"{user_input} is not a prime number. Regular security is sufficient.")
+    
+    except ValueError:
+        print("❌ Invalid input! Please enter a valid positive integer.")
