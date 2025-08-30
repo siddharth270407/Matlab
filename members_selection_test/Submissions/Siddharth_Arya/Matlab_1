@@ -1,0 +1,58 @@
+% Name: Siddharth Arya 
+% Roll Number: nil
+% Question: Data Science Laboratory
+
+% ================================
+% TASK 1: Solar Panel Efficiency Data
+% ================================
+% Creating a 3x4 matrix for solar panel efficiency
+% Rows = Types A, B, C
+% Columns = 9AM, 12PM, 3PM, 6PM
+solar_efficiency = [85 92 88 78; 
+                    79 87 85 72; 
+                    91 95 89 82];
+
+% ================================
+% TASK 2: Basic Matrix Analysis
+% ================================
+% a) Matrix dimensions
+[rows, cols] = size(solar_efficiency);
+
+% b) Maximum efficiency
+max_eff = max(solar_efficiency(:));
+
+% c) Minimum efficiency
+min_eff = min(solar_efficiency(:));
+
+% d) Sum of each row
+row_sums = sum(solar_efficiency, 2);
+
+% e) Average of each column
+col_means = mean(solar_efficiency, 1);
+
+% ================================
+% TASK 3: Data Extraction
+% ================================
+% a) Type B data (row 2)
+typeB_data = solar_efficiency(2,:);
+
+% b) 12PM efficiency (column 2)
+noon_data = solar_efficiency(:,2);
+
+% c) Type C at 3PM (row 3, column 3)
+typeC_3pm = solar_efficiency(3,3);
+
+% ================================
+% DISPLAY RESULTS
+% ================================
+fprintf("Solar Panel Efficiency Analysis Results:\n");
+fprintf("Matrix Dimensions: %d x %d\n", rows, cols);
+fprintf("Maximum Efficiency: %d%%\n", max_eff);
+fprintf("Minimum Efficiency: %d%%\n", min_eff);
+
+fprintf("Sum of Each Row: [%s]\n", num2str(row_sums'));
+fprintf("Average of Each Column: [%s]\n", num2str(col_means, '%.2f '));
+
+fprintf("Type B Data: [%s]\n", num2str(typeB_data));
+fprintf("12PM Readings: [%s]\n", num2str(noon_data'));
+fprintf("Efficiency of Type C at 3PM: %d%%\n", typeC_3pm);
