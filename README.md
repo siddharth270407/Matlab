@@ -42,7 +42,8 @@ Forking creates your own copy of this repository under your GitHub account.
 1. Go to the top-right corner of this page.
 2. Click the **"Fork"** button.
 
-![Fork Screenshot](./images/fork_button_placeholder.png)
+<img width="1918" height="278" alt="Screenshot 2025-08-30 093350" src="https://github.com/user-attachments/assets/851c9239-fc1f-4f77-89bd-97cf8d3c6375" />
+
 
 ---
 
@@ -52,7 +53,8 @@ After forking, you need to copy the URL of your forked repository.
 1. Click the green **"Code"** button on your forked repository page.
 2. Copy the HTTPS URL (it looks like `https://github.com/YOUR_USERNAME/MATrix.git`).
 
-![Copy URL Screenshot](./images/copy_url_placeholder.png)
+<img width="1916" height="533" alt="Screenshot 2025-08-30 093638" src="https://github.com/user-attachments/assets/8a30a918-98ef-46a4-a08a-09d5bf9a8a98" />
+<img width="1919" height="671" alt="Screenshot 2025-08-30 093725" src="https://github.com/user-attachments/assets/66c7bf12-27a0-487e-ad9e-62aec62f5195" />
 
 ---
 
@@ -67,7 +69,8 @@ Now, clone your forked repository to your local machine.
 git clone https://github.com/YOUR_USERNAME/MATrix.git
 ```
 
-![Clone Screenshot](./images/clone_command_placeholder.png)
+<img width="1798" height="864" alt="image" src="https://github.com/user-attachments/assets/caa59ad4-7483-482b-8b0a-8ac2afb12063" />
+
 
 ---
 
