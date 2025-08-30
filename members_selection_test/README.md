@@ -100,7 +100,6 @@ git add Submissions/Your_Name/
 git commit -m "Add solutions for MATrix club selection test - [Your Name]"
 ```
 
-git push origin solutions-YOUR_NAME
 
 
 ### 3. Push Your Solutions to GitHub (Push to the main branch ONLY)
@@ -116,6 +115,8 @@ git push origin main
 
 
 ### 4. Create a Pull Request
+<img width="1832" height="493" alt="image" src="https://github.com/user-attachments/assets/53018823-ee33-465c-980b-68795d549a78" />
+
 1. **Go to your forked repository on GitHub** (in your web browser)
 2. **Click "New pull request"**
 3. **Set the base repository to the club's repository and the base branch to `main`**
