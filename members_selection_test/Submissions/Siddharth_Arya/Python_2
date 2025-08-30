@@ -1,0 +1,33 @@
+# Name: Siddharth Arya 
+# Roll Number: Nil
+# Question: Palindrome Portal
+# Time: 30 minutes
+
+import string
+
+# Function to check if a text is a palindrome
+def is_palindrome(text: str) -> bool:
+    """
+    Returns True if 'text' is a palindrome, False otherwise.
+    Palindrome check ignores case, spaces, and punctuation.
+    """
+    # Step 1: Normalize text (lowercase)
+    cleaned_text = text.lower()
+    
+    # Step 2: Keep only alphabetic characters
+    cleaned_text = "".join(char for char in cleaned_text if char.isalpha())
+    
+    # Step 3: Compare string with its reverse
+    return cleaned_text == cleaned_text[::-1]
+
+
+# Main program
+if __name__ == "__main__":
+    user_input = input("🔮 Enter a word or phrase to test the portal: ")
+    
+    if not user_input.strip():  # Handle empty input
+        print("⚠️ You must enter some text to test the portal!")
+    elif is_palindrome(user_input):
+        print(f"✨ '{user_input}' is a magical palindrome! The portal opens before you! ✨")
+    else:
+        print(f"😞 '{user_input}' is not a palindrome. The portal remains sealed.")
