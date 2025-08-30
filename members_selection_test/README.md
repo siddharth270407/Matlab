@@ -63,23 +63,24 @@ members_selection_test/
 
 #### 🎯 For Each Question:
 1. **Read the question file carefully**
-2. **Create your solution file in the `Submissions/` folder**
-3. **Use the exact naming convention specified below**
+2. **Create a folder inside `Submissions/` with your full name (e.g., `Submissions/John_Doe`)**
+3. **Store all your solution files in your personal folder**
+4. **Use the exact naming convention specified below for your files**
 4. **Test your code to make sure it works**
 
 
 #### 📝 Solution File Naming:
-- Python Q1: `Submissions/Python_1_[YourName].py`
-- Python Q2: `Submissions/Python_2_[YourName].py`
-- MATLAB Q1: `Submissions/MATLAB_1_[YourName].m`
-- MATLAB Q2: `Submissions/MATLAB_2_[YourName].m`
+- Python Q1: `Submissions/Your_Name/Python_1.py`
+- Python Q2: `Submissions/Your_Name/Python_2.py`
+- MATLAB Q1: `Submissions/Your_Name/MATLAB_1.m`
+- MATLAB Q2: `Submissions/Your_Name/MATLAB_2.m`
 
 
-**Example**: If your name is John Doe:
-- `Submissions/Python_1_John_Doe.py`
-- `Submissions/Python_2_John_Doe.py`
-- `Submissions/MATLAB_1_John_Doe.m`
-- `Submissions/MATLAB_2_John_Doe.m`
+**Example**: If your name is John Doe, create a folder `Submissions/John_Doe/` and place your files inside:
+- `Submissions/John_Doe/Python_1.py`
+- `Submissions/John_Doe/Python_2.py`
+- `Submissions/John_Doe/MATLAB_1.m`
+- `Submissions/John_Doe/MATLAB_2.m`
 
 
 ### 2. Add and Commit Your Solutions
@@ -91,9 +92,9 @@ After completing each question (or all questions):
 git status
 ```
 
-2. **Add your solution files**:
+2. **Add your personal folder and solution files**:
 ```bash
-git add Submissions/
+git add Submissions/Your_Name/
 ```
 
 3. **Commit your work with a clear message**:
@@ -107,7 +108,7 @@ git push origin solutions-YOUR_NAME
 ### 3. Push Your Solutions to GitHub (Push to the main branch ONLY)
 
 ```bash
-git add Submissions/
+git add Submissions/Your_Name/
 git commit -m "Add solutions for MATrix club selection test - [Your Name]"
 git push origin main
 ```
@@ -241,7 +242,7 @@ git push origin solutions-YOUR_NAME
 git status
 
 # Add files to staging
-git add Submissions/
+git add Submissions/Your_Name/
 
 # Commit your changes
 git commit -m "Your commit message"
