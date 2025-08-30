@@ -1,7 +1,8 @@
-# MATrix Club - Member Selection Test (Beginner Level)
-## Programming Fundamentals Assessment & GitHub Submission Guide
 
-Welcome to the MATrix (MATLAB and Open-Source) Club Member Selection Test! This comprehensive guide will help you complete the programming assessment and submit your solutions using GitHub pull requests. **Don't worry if you're new to GitHub - we'll guide you through every step!** 🚀
+# MATrix Club - Member Selection Test (Beginner Level)
+## Programming Fundamentals Assessment & Submission Guide
+
+Welcome to the MATrix (MATLAB and Open-Source) Club Member Selection Test! This guide will help you complete the programming assessment and submit your solutions. **If you haven't already forked and cloned the repository, please see the main MATrix README for step-by-step instructions with screenshots.**
 
 ---
 
@@ -16,78 +17,56 @@ Welcome to the MATrix (MATLAB and Open-Source) Club Member Selection Test! This 
 
 ---
 
-## 📋 BEFORE YOU START - REQUIRED SETUP
-
-### 1. Create a GitHub Account (if you don't have one)
-1. Go to [github.com](https://github.com)
-2. Click "Sign up" 
-3. Choose a username (tip: use your real name or college ID)
-4. Use your college email address
-5. Create a strong password
-6. Verify your email
-
-### 2. Install Required Software
-- **Git**: Download from [git-scm.com](https://git-scm.com/)
-- **Python 3.x**: Download from [python.org](https://python.org)
-- **MATLAB**: Use college lab or personal license
-- **Text Editor**: VS Code (recommended) or any code editor
-
-### 3. Configure Git (First Time Only)
-Open terminal/command prompt and run:
-```bash
-git config --global user.name "Your Full Name"
 git config --global user.email "your.email@college.edu"
-```
+
+## 📋 BEFORE YOU START
+
+**Already forked and cloned the repository? Great!**
+
+If not, please refer to the main MATrix README for detailed steps (with screenshots) on:
+- Creating a GitHub account
+- Forking this repository
+- Copying the repository URL
+- Cloning to your computer
+- Setting up Git
+
+Once you have the repository on your computer, continue below.
 
 ---
 
-## 🚀 STEP-BY-STEP SUBMISSION PROCESS
 
-### STEP 1: Fork the Repository
-1. **Navigate to the test repository**: [Repository Link - Will be provided by president]
-2. **Click the "Fork" button** in the top-right corner
-3. **Select your account** when prompted
-4. **Wait for the fork to complete** - you now have your own copy!
+## 🚀 SUBMISSION PROCESS
 
-![Fork Example](https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.jpg)
-
-### STEP 2: Clone Your Fork to Your Computer
-1. **On your forked repository page**, click the green "Code" button
-2. **Copy the HTTPS URL** (it should look like: `https://github.com/YOUR_USERNAME/member_selection_test.git`)
-3. **Open terminal/command prompt**
-4. **Navigate to where you want the folder** (e.g., `cd Desktop`)
-5. **Run the clone command**:
-```bash
 git clone https://github.com/YOUR_USERNAME/member_selection_test.git
-```
-6. **Enter the directory**:
-```bash
-cd member_selection_test
-```
+
+### 1. Complete the Programming Questions
 
 
-### STEP 3: Complete the Programming Questions
 
-### STEP 4: Complete the Programming Questions
+
 
 #### 📁 File Structure
+Your folder should look like this:
+
 ```
-member_selection_test/
-├── README.md                                    # This guide
-├── Submissions/                                 # Your solutions go here
+members_selection_test/
+├── README.md                # This guide
+├── Submissions/             # Your solutions go here
 ├── python questions/
-│   ├── Question_1_Python_1.py     # Read and solve
-│   └── Question_2_Python_2.py     # Read and solve
+│   ├── Question_1_Python_1.py
+│   └── Question_2_Python_2.py
 └── MATLAB questions/
-   ├── Question_1_MATLAB_1.m      # Read and solve
-   └── Question_2_MATLAB_2.m      # Read and solve
+   ├── Question_1_MATLAB_1.m
+   └── Question_2_MATLAB_2.m
 ```
+
 
 #### 🎯 For Each Question:
 1. **Read the question file carefully**
 2. **Create your solution file in the `Submissions/` folder**
-3. **Use the exact naming convention specified in each question**
+3. **Use the exact naming convention specified below**
 4. **Test your code to make sure it works**
+
 
 #### 📝 Solution File Naming:
 - Python Q1: `Submissions/Python_1_[YourName].py`
@@ -95,13 +74,15 @@ member_selection_test/
 - MATLAB Q1: `Submissions/MATLAB_1_[YourName].m`
 - MATLAB Q2: `Submissions/MATLAB_2_[YourName].m`
 
+
 **Example**: If your name is John Doe:
 - `Submissions/Python_1_John_Doe.py`
 - `Submissions/Python_2_John_Doe.py`
 - `Submissions/MATLAB_1_John_Doe.m`
 - `Submissions/MATLAB_2_John_Doe.m`
 
-### STEP 5: Add and Commit Your Solutions
+
+### 2. Add and Commit Your Solutions
 
 After completing each question (or all questions):
 
@@ -120,13 +101,22 @@ git add Submissions/
 git commit -m "Add solutions for MATrix club selection test - [Your Name]"
 ```
 
-### STEP 6: Push Your Branch to GitHub
-```bash
 git push origin solutions-YOUR_NAME
+
+
+### 3. Push Your Solutions to GitHub (Push to the main branch ONLY)
+
+```bash
+git add Submissions/
+git commit -m "Add solutions for MATrix club selection test - [Your Name]"
+git push origin main
 ```
 
+> **Note:** Please push your solutions to the `main` branch only. Do not create or use any other branches for your submission.
 
-### STEP 7: Create a Pull Request
+
+
+### 4. Create a Pull Request
 1. **Go to your forked repository on GitHub** (in your web browser)
 2. **Click "New pull request"**
 3. **Set the base repository to the club's repository and the base branch to `main`**
@@ -152,13 +142,15 @@ git push origin solutions-YOUR_NAME
    ```
 5. **Click "Create pull request"**
 
-### STEP 8: Wait for Review
+
+### 5. Wait for Review
 - Your pull request has been submitted! 🎉
 - The club executives will review your solutions
 - You may receive feedback or requests for changes
 - Results will be announced within 48 hours
 
 ---
+
 
 ## 🛠️ TROUBLESHOOTING GUIDE
 
@@ -220,6 +212,7 @@ git push origin solutions-YOUR_NAME
 
 
 
+
 ## ⏰ Time Management Tips
 
 ### Recommended Schedule (2 hours total):
@@ -239,6 +232,7 @@ git push origin solutions-YOUR_NAME
 - ✅ **Ask for clarification if question requirements are unclear**
 
 ---
+
 
 ## 📚 Quick Git Commands Reference
 
@@ -266,6 +260,7 @@ git branch
 
 
 
+
 ## 🌟 Success Tips for Beginners
 
 ### Programming:
@@ -290,6 +285,7 @@ git branch
 
 ---
 
+
 ## 🚨 IMPORTANT REMINDERS
 
 ### ✅ DO:
@@ -310,6 +306,7 @@ git branch
 
 ---
 
+
 ## 🎉 After Submission
 
 ### What Happens Next:
@@ -326,6 +323,7 @@ git branch
 - **Community Welcome**: Everyone who participates is contributing to our community!
 
 ---
+
 
 ## 🌐 Join Our Community
 

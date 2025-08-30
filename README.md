@@ -4,6 +4,36 @@ This is the main repository for the MATrix Club. If you are here to participate 
 
 ---
 
+
+## 🛠️ Initial Setup
+
+### 1. Create a GitHub Account (if you don't have one)
+1. Go to [github.com](https://github.com)
+2. Click "Sign up"
+3. Choose a username (tip: use your real name or college ID)
+4. Use your college email address
+5. Create a strong password
+6. Verify your email
+
+---
+
+### 2. Install Required Software
+- **Git**: Download from [git-scm.com](https://git-scm.com/)
+- **Python 3.x**: Download from [python.org](https://python.org)
+- **MATLAB**: Use your college lab or personal license
+- **Text Editor**: VS Code (recommended) or any code editor
+
+---
+
+### 3. Configure Git (First Time Only)
+Open your terminal/command prompt and run:
+```bash
+git config --global user.name "Your Full Name"
+git config --global user.email "your.email@college.edu"
+```
+
+---
+
 ## 🚀 Getting Started: Fork, Copy URL, and Clone
 
 ### 1. **Fork this Repository**
